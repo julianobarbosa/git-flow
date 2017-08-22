@@ -39,6 +39,11 @@ git flow feature finish pointless_comments
 git push --set-upstream origin develop
 ```
 
+## Release: Start
+```console
+git flow release start 1.0.1
+```
+
 ## sequence
 ```console
 git flow init
@@ -63,4 +68,5 @@ git commit -a
 git push --set-upstream origin feature/pointless-comments
 git flow feature finish
 git push --set-upstream origin develop
+git flow release start 1.0.1
 ```
