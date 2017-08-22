@@ -9,24 +9,64 @@ wget --no-check-certificate -q https://raw.githubusercontent.com/petervanderdoes
 sudo apt install git-flow
 ```
 
-## Initial flow
+## Flow: Initial
 ```console
 git flow init
 ```
 
-## Push
+## Flow: Push
 ```console
 git push origin --all
 ```
 
-## Create a Feature
+## Feature: Create
 ```console
 git flow feature start pointless-comments
 ```
 
-## Finish a Feature
+## Feature: Push
+```console
+git push --set-upstream origin feature/pointless-comments
+```
+
+## Feature: Finish
 ```console
 git flow feature finish pointless_comments
 ```
 
-TESTE
+## Feature to Develop
+```console
+git push --set-upstream origin develop
+```
+
+## Release: Start
+```console
+git flow release start 1.0.1
+```
+
+## sequence
+```console
+git flow init
+git push origin --all
+git flow feature start pointless-comments
+vim README.md
+git add .
+git commit -a
+git status
+git push --set-upstream origin feature/pointless-comments
+vim README.md
+git add .
+git commit -a
+git push --set-upstream origin feature/pointless-comments
+vim README.md
+git add .
+git commit -a
+git push --set-upstream origin feature/pointless-comments
+vim README.md
+git add .
+git commit -a
+git push --set-upstream origin feature/pointless-comments
+git flow feature finish
+git push --set-upstream origin develop
+git flow release start 1.0.1
+```
