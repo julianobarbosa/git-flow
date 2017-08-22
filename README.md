@@ -19,17 +19,17 @@ git flow init
 git push origin --all
 ```
 
-## Create a Feature
+## Feature: Create
 ```console
 git flow feature start pointless-comments
 ```
 
-## Push feature
+## Feature: Push
 ```console
 git push --set-upstream origin feature/pointless-comments
 ```
 
-## Finish a Feature
+## Feature: Finish
 ```console
 git flow feature finish pointless_comments
 ```
