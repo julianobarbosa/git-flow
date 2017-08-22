@@ -24,6 +24,11 @@ git push origin --all
 git flow feature start pointless-comments
 ```
 
+## Push feature
+```console
+git push --set-upstream origin feature/pointless-comments
+```
+
 ## Finish a Feature
 ```console
 git flow feature finish pointless_comments
