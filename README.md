@@ -28,5 +28,3 @@ git flow feature start pointless-comments
 ```console
 git flow feature finish pointless_comments
 ```
-
-TESTE
