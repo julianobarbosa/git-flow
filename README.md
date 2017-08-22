@@ -9,12 +9,12 @@ wget --no-check-certificate -q https://raw.githubusercontent.com/petervanderdoes
 sudo apt install git-flow
 ```
 
-## Initial flow
+## Flow: Initial
 ```console
 git flow init
 ```
 
-## Push
+## Flow: Push
 ```console
 git push origin --all
 ```
