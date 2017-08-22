@@ -44,6 +44,23 @@ git push --set-upstream origin develop
 git flow release start 1.0.1
 ```
 
+## Release: Finish
+```console
+git flow release finish 1.0.1
+```
+
+## Release: Push
+```console
+git push --set-upstream origin release/1.0.1
+```
+
+## Released:
+```console
+git checkout master
+git push origin --all --follow-tags
+```
+
+
 ## sequence
 ```console
 git flow init
