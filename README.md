@@ -33,3 +33,34 @@ git push --set-upstream origin feature/pointless-comments
 ```console
 git flow feature finish pointless_comments
 ```
+
+## Feature to Develop
+```console
+git push --set-upstream origin develop
+```
+
+## sequence
+```console
+git flow init
+git push origin --all
+git flow feature start pointless-comments
+vim README.md
+git add .
+git commit -a
+git status
+git push --set-upstream origin feature/pointless-comments
+vim README.md
+git add .
+git commit -a
+git push --set-upstream origin feature/pointless-comments
+vim README.md
+git add .
+git commit -a
+git push --set-upstream origin feature/pointless-comments
+vim README.md
+git add .
+git commit -a
+git push --set-upstream origin feature/pointless-comments
+git flow feature finish
+git push --set-upstream origin develop
+```
