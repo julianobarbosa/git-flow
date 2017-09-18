@@ -61,6 +61,11 @@ git push origin --all --follow-tags
 ```
 
 
+## git: Log format
+```console
+git log --pretty=format:"%h %an %ar - %s"
+```
+
 ## sequence
 ```console
 git flow init
