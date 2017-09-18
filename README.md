@@ -91,6 +91,12 @@ index 0000000..12e7e7c
 
 ```
 
+## git: Log grep
+```console
+git log --grep="#1234"
+```
+
+
 ## sequence
 ```console
 git flow init
