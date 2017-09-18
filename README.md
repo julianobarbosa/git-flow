@@ -73,7 +73,24 @@ dd
 ```console
 git show 7e597ef
 ```
-git
+
+```console
+commit 7e597ef90f3f46fd7b68feaae6890636b8a52d28
+Author: Scrapbook Git Tutorial <git-tutorial@joinscrapbook.com>
+Date:   Mon Sep 18 12:17:50 2017 +0000
+
+    Initial Commit
+
+diff --git a/committed.js b/committed.js
+new file mode 100644
+index 0000000..12e7e7c
+--- /dev/null
++++ b/committed.js
+@@ -0,0 +1 @@
++console.log("Committed File")
+
+```
+
 ## sequence
 ```console
 git flow init
