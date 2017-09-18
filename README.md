@@ -134,6 +134,13 @@ M       staging.txt
 HEAD is now at 843b9e2 New File
 ```
 
+## git: revert
+```console
+ git revert HEAD --no-edit
+[master c51cb80] Revert "Commit To Revert"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
 ## sequence
 ```console
 git flow init
