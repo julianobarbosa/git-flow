@@ -123,27 +123,27 @@ HEAD is now at 92d34d1... Fix for Bug #42
 
 ## git: reset
 ```console
- > git reset HEAD .
+> git reset HEAD .
 Unstaged changes after reset:
 M       staging.txt
 ```
 
 ## git: reset --hard
 ```console
- > git reset --hard HEAD
+> git reset --hard HEAD
 HEAD is now at 843b9e2 New File
 ```
 
 ## git: revert
 ```console
- > git revert HEAD --no-edit
+> git revert HEAD --no-edit
 [master c51cb80] Revert "Commit To Revert"
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
 ## git: merge
 ```console
- > git merge remotes/origin/master
+> git merge remotes/origin/master
 Auto-merging staging.txt
 CONFLICT (add/add): Merge conflict in staging.txt
 Automatic merge failed; fix conflicts and then commit the result.
