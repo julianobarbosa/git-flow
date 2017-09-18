@@ -118,7 +118,7 @@ mple:
 
   git checkout -b new_branch_name
 
-HEAD is now at 92d34d1... Fix for Bug #42```
+HEAD is now at 92d34d1... Fix for Bug #42
 ```
 
 ## sequence
