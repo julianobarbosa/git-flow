@@ -73,10 +73,7 @@ dd
 
 ## git: Show
 ```console
-git show 7e597ef
-```
-
-```console
+> git show 7e597ef
 commit 7e597ef90f3f46fd7b68feaae6890636b8a52d28
 Author: Scrapbook Git Tutorial <git-tutorial@joinscrapbook.com>
 Date:   Mon Sep 18 12:17:50 2017 +0000
@@ -90,17 +87,16 @@ index 0000000..12e7e7c
 +++ b/committed.js
 @@ -0,0 +1 @@
 +console.log("Committed File")
-
 ```
 
 ## git: Log grep
 ```console
-git log --grep="#1234"
+> git log --grep="#1234"
 ```
 
 ## git: branch -r
 ```console
-git branch -r
+> git branch -r
   origin/master   
 ```
 
