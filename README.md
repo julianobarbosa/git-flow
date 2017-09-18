@@ -161,6 +161,12 @@ Fixing Previous Error
 > git checkout --theirs staging.txt
 ```
 
+## git: Create new Branch
+```console
+> git checkout -b new_branch
+Switched to a new branch 'new_branch'
+```
+
 ## sequence
 ```console
 git flow init
