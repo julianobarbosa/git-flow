@@ -121,6 +121,13 @@ mple:
 HEAD is now at 92d34d1... Fix for Bug #42
 ```
 
+## git: reset
+```console
+ > git reset HEAD .
+Unstaged changes after reset:
+M       staging.txt
+```
+
 ## sequence
 ```console
 git flow init
