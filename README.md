@@ -201,6 +201,19 @@ Fixing Previous Error
 > git checkout --theirs staging.txt
 ```
 
+## git: cherry-pick
+```console
+> git log --pretty=oneline --reverse new_branch
+04f9ee31280e8eac0dce9c2429d1e9f04f893dc3 Readme File
+ebc00f664c71e29651bd83c0de50f1b2f499c797 Initial commit, no items
+56069f957e372c0acd31516cb98d71888c1ec104 Initial list
+fa7f29afb2f376ce0a59bc86006068dce75b6592 Creating Second List
+4ee69e6e85566b41b35bc8e3bc2f3ef58f67e8be Adding final items to the list
+
+
+> git cherry-pick new_branch~1
+```
+
 ## sequence
 ```console
 git flow init
