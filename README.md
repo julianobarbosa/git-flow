@@ -64,11 +64,13 @@ git push origin --all --follow-tags
 ## git: Log format
 ```console
 git log --pretty=format:"%h %an %ar - %s"
-```
+
 e530db3 Scrapbook Git Tutorial 9 minutes ago - [# 3] - Step 3 - Git A
 dd
 
 7e597ef Scrapbook Git Tutorial 13 minutes ago - Initial Commit
+```
+
 ## git: Show
 ```console
 git show 7e597ef
@@ -95,6 +97,32 @@ index 0000000..12e7e7c
 ```console
 git log --grep="#1234"
 ```
+
+## git: branch -r
+```console
+git branch -r
+  origin/master   
+```
+
+## git: checkout
+```console
+> git checkout remotes/origin/master
+Note: checking out 'remotes/origin/master'.
+
+You are in 'detached HEAD' state. You can look around, make experimen
+tal
+changes and commit them, and you can discard any commits you make in
+this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you
+may
+do so (now or later) by using -b with the checkout command again. Exa
+mple:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 92d34d1... Fix for Bug #42```
 
 
 ## sequence
