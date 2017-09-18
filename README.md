@@ -65,7 +65,14 @@ git push origin --all --follow-tags
 ```console
 git log --pretty=format:"%h %an %ar - %s"
 ```
-
+e530db3 Scrapbook Git Tutorial 9 minutes ago - [# 3] - Step 3 - Git A
+dd
+7e597ef Scrapbook Git Tutorial 13 minutes ago - Initial Commit
+## git: Show
+```console
+git show 7e597ef
+```
+git
 ## sequence
 ```console
 git flow init
