@@ -128,6 +128,12 @@ Unstaged changes after reset:
 M       staging.txt
 ```
 
+## git: reset --hard
+```console
+ > git reset --hard HEAD
+HEAD is now at 843b9e2 New File
+```
+
 ## sequence
 ```console
 git flow init
