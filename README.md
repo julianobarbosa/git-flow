@@ -67,6 +67,7 @@ git log --pretty=format:"%h %an %ar - %s"
 ```
 e530db3 Scrapbook Git Tutorial 9 minutes ago - [# 3] - Step 3 - Git A
 dd
+
 7e597ef Scrapbook Git Tutorial 13 minutes ago - Initial Commit
 ## git: Show
 ```console
