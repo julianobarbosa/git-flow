@@ -149,6 +149,18 @@ CONFLICT (add/add): Merge conflict in staging.txt
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
+## git: conflit
+```console
+> cat staging.txt
+<<<<<<< HEAD
+Fixing Error, Let's Hope No-One Else Does
+=======
+Fixing Previous Error
+>>>>>>> remotes/origin/master
+
+> git checkout --theirs staging.txt
+```
+
 ## sequence
 ```console
 git flow init
