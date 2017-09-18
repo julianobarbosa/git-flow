@@ -56,14 +56,14 @@ git push --set-upstream origin release/1.0.1
 
 ## Released:
 ```console
-git checkout master
-git push origin --all --follow-tags
+> git checkout master
+> git push origin --all --follow-tags
 ```
 
 
 ## git: Log format
 ```console
-git log --pretty=format:"%h %an %ar - %s"
+> git log --pretty=format:"%h %an %ar - %s"
 
 e530db3 Scrapbook Git Tutorial 9 minutes ago - [# 3] - Step 3 - Git A
 dd
@@ -119,7 +119,7 @@ mple:
   git checkout -b new_branch_name
 
 HEAD is now at 92d34d1... Fix for Bug #42```
-
+```
 
 ## sequence
 ```console
