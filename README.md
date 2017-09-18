@@ -94,10 +94,50 @@ index 0000000..12e7e7c
 > git log --grep="#1234"
 ```
 
-## git: branch -r
+## Feature: Branch
+
+### Create:
+```console
+> git checkout -b new_branch
+Switched to a new branch 'new_branch'
+```
+
+### List:
+```console
+> git branch -va
+  master
+* new_branch
+```
+
+### Merge To Master:
+```console
+> git checkout master
+Switched to branch 'master'
+
+> git merge new_branch
+Updating 7719315..0241ec6
+Fast-forward
+ new-file-6.txt | 1 +
+ staging.txt    | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 new-file-6.txt
+
+> git push origin master
+Total 0 (delta 0), reused 0 (delta 0)
+To /s/remote-project/1
+ * [new branch]      master -> master
+```
+
+### Delete:
+```console
+> git branch -d new_branch
+Deleted branch new_branch (was 0241ec6).
+```
+
+### git: branch -r
 ```console
 > git branch -r
-  origin/master   
+  origin/master
 ```
 
 ## git: checkout
@@ -159,12 +199,6 @@ Fixing Previous Error
 >>>>>>> remotes/origin/master
 
 > git checkout --theirs staging.txt
-```
-
-## git: Create new Branch
-```console
-> git checkout -b new_branch
-Switched to a new branch 'new_branch'
 ```
 
 ## sequence
