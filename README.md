@@ -240,3 +240,5 @@ git flow feature finish
 git push --set-upstream origin develop
 git flow release start 1.0.1
 ```
+# Reference
+https://github.com/nvie/gitflow/wiki/installation
